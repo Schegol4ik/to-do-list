@@ -1,0 +1,10 @@
+@import "src/styles/stylesTemplates";
+
+.myInpt{
+  flex-wrap: nowrap;
+  height: 40px;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border: 1px solid $color_border;
+  outline: none;
+}

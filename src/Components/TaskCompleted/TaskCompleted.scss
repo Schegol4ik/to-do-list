@@ -1,0 +1,31 @@
+@import "src/styles/stylesTemplates";
+
+.wrapper__task__completed{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid $color_border;
+  height: 48px;
+  margin-bottom: 16px;
+  color: $color_grey;
+
+  .completed__task{
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    input {
+      color: #A3A3A3;
+      width: 16px;
+      height: 16px;
+    }
+
+  }
+  .completed__task_function{
+    img{
+      margin-right: 15px;
+      cursor: pointer;
+    }
+  }
+}
